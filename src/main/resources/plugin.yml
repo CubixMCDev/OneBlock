@@ -1,0 +1,33 @@
+name: CubixOneBlock
+description: OneBlock for CubixMC
+version: 1.0
+main: com.cubixmc.oneblock.OneBlock
+author: Pipo
+api-version: 1.20
+load: POSTWORLD
+softdepend: [Vault, PlaceholderAPI]
+
+commands:
+  cubixmc:
+    aliases: cubix
+  ss:
+  vote:
+  store:
+  site:
+  youtube:
+  twitter:
+  instagram:
+  cubixcredits:
+  bienvenue:
+
+permissions:
+  cubixmc:
+    reload:
+      description: Allows you to reload the config.
+      default: op
+  cubixcredits.admin:
+    description: Allows player to take and give cubixcredits!
+    default: op
+  cubixcredits.reset:
+    description: Allows the player reset cubixcredits!
+    default: op

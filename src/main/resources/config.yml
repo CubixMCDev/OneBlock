@@ -1,0 +1,63 @@
+# Enable the plugin?
+enabled: true
+
+database:
+  host: localhost
+  port: 3306
+  database: name
+  user: root
+  password: password
+
+cubixmc:
+  noperm: "Commande inconnue."
+
+onFirstJoinMessage:
+  enabled: false
+  message: "&7&l| &8&l{player} &7&lhas joined for the first time"
+
+onJoinMessage:
+  enabled: false
+  message: "&7&l| &8&l{player} &7&lhas joined"
+
+onQuitMessage:
+  enabled: false
+  message: "&7&l| &8&l{player} &7&lhas left"
+
+
+MessageFormat:
+  enabled: true
+
+  admin: "%img_admin% §c{player} §8> §f{message}"
+  staffmanager: "%img_staffmanager% §c{player} §8> §f{message}"
+  devmanager: "%img_devmanager% §9{player} §8> §f{message}"
+  modmanager: "%img_modmanager% §6{player} §8> §f{message}"
+  buildmanager: "%img_buildmanager% §2{player} §8> §f{message}"
+  developer: "%img_developer% §3{player} §8> §f{message}"
+  moderator: "%img_moderator% §e{player} §8> §f{message}"
+  helper: "%img_helper% §e{player} §8> §f{message}"
+  builder: "%img_builder% §a{player} §8> §f{message}"
+  partner: "%img_partner% §f{player} §8> §f{message}"
+  streamer: "%img_streamer% §f{player} §8> §f{message}"
+  youtuber: "%img_youtuber% §f{player} §8> §f{message}"
+  friend: "%img_friend% §f{player} §8> §f{message}"
+  supervip: "%img_supervip% §f{player} §8> §f{message}"
+  vipplus: "%img_vipplus% §f{player} §8> §f{message}"
+  vip: "%img_vip% §f{player} §8> §f{message}"
+  default: "%img_player% §7{player} §8> §7{message}"
+
+welcome:
+  message: "Bienvenue, %newplayer%, sur le serveur !"
+  already-welcome: "&6&lBienvenue &e| Il n'y a pas de nouveau qui a rejoin le serveur."
+  not-player: 'Seul les joueurs peuvent faire ceci.'
+
+restart:
+  time: "09:00"
+  before1time: "08:50"
+  before2time: "08:55"
+  before3time: "08:59"
+
+protect:
+  messages:
+    tutorial: "&4&lErreur &c| Vous devez aller au bout du tutoriel !"
+    fallspawn: "&7Hopopop, vous allez où comme ça ?"
+  ycoord: 160
